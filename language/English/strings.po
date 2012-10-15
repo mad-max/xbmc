@@ -5359,7 +5359,11 @@ msgctxt "#14100"
 msgid "Stop ripping CD"
 msgstr ""
 
-#empty strings from id 14101 to 15014
+msgctxt "#14101"
+msgid "Add Ripped CD to Music Library"
+msgstr ""
+
+#empty strings from id 14102 to 15014
 
 msgctxt "#15015"
 msgid "Remove"

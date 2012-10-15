@@ -42,6 +42,7 @@
 #include "utils/log.h"
 #include "utils/TimeUtils.h"
 #include "utils/URIUtils.h"
+#include "Application.h"
 
 using namespace std;
 using namespace XFILE;
@@ -141,6 +142,12 @@ bool CCDDARipper::RipCD()
     AddJob(new CCDDARipJob(item->GetPath(),strFile,
                            *item->GetMusicInfoTag(),
                            g_guiSettings.GetInt("audiocds.encoder"), eject));
+  }
+
+  //scan new folder into library
+  if (g_guiSettings.GetBool("audiocds.autoadd"))
+  {
+      g_application.StartMusicScan(strDirectory);
   }
 
   return true;
