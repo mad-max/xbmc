@@ -369,7 +369,7 @@ void CGUISettings::Initialize()
   AddInt(acd, "audiocds.bitrate", 623, 192, 128, 32, 320, SPIN_CONTROL_INT_PLUS, MASK_KBPS);
   AddInt(acd, "audiocds.compressionlevel", 665, 5, 0, 1, 8, SPIN_CONTROL_INT_PLUS);
 
-  AddSeperator(acd, "audiocds.sep2");
+  AddSeparator(acd, "audiocds.sep2");
   AddBool(acd, "audiocds.autoadd", 14101, true);
   AddBool(acd, "audiocds.ejectonrip", 14099, true);
 
