@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <settings>
-  <section id="appearance">
+  <section id="system">
     <category id="locale">
       <group id="2">
         <visible>false</visible>
