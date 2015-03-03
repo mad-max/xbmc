@@ -56,6 +56,9 @@
 
 #define WINDOW_ADDON_BROWSER              10040
 
+#define WINDOW_SETTINGS_PLAYBACK          10041
+#define WINDOW_SETTINGS_MEDIA             10042
+
 #define WINDOW_SCREENSAVER_DIM               97
 #define WINDOW_DEBUG_INFO                    98
 #define WINDOW_DIALOG_POINTER             10099
