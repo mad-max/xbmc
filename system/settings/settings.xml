@@ -197,7 +197,7 @@
       </group>
     </category>
   </section>
-  <section id="videos" label="14086" help="36138">
+  <section id="playback" label="14086" help="36138">
     <category id="audiocds" label="620" help="36282">
       <group id="1">
         <setting id="audiocds.autoaction" type="integer" label="14097" help="36283">
@@ -1140,7 +1140,7 @@
       </group>
     </category>
   </section>
-  <section id="music" label="37049" help="36253">
+  <section id="media" label="37049" help="36253">
     <category id="scrapers" label="0" help="36197">
       <visible>false</visible>
       <group id="1">
